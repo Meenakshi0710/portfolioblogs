@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  text-decoration: none!important;
+}
+h1{
+  text-align: center;
+  font-weight: 800;
+  color: #A10035;
+  font-size: 60px;
+}
+h4{
+  text-align: center;
+}
+nav ul{
+  float: right!important;
+  margin-right: 35px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 25px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  
+  font-size: 90px;
+  padding: 7px 13px;
+  border-radius: 3px;
+ 
+  text-decoration: none;
+  
+}
+
+
+
+.nav-item{
+width:150px;
+font-size: 20px;
+}
+
+
+
+.hero-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../public/Images/backgroundimg.jpg");
+
+ 
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  
+ 
+}
+.hero-text > h1{
+ font-size: 50px;
+  font-weight: bold;
+  
+  color: #A10035;
+  
+}
+.hero-text > h4{
+ 
+  color:#2A0944;
+  font-weight: bold;
+}
+.hero-text > p{
+ 
+  color:#2A0944;
+  align-items: center;
+   
+}
+.icons{
+  display: flex;
+  column-gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.icon{
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 26px;
+  border-radius: 50%;
+  color:#2A0944;
+  outline: 2px solid #2A0944;
+  transition-property: outline-offset, outline-color, background-color;
+  transition-duration: .25s;
+}
+.icon:hover{
+  outline-offset: 4px;
+}
+.icon-twitter:hover{
+  background-color: #1da1f2;
+  outline-color: #1da1f2;
+}
+.icon-github:hover{
+  background-color: #2ea44f;
+  outline-color: #2ea44f;
+}
+.icon-linkedin:hover{
+  background-color: #0077b5;
+  outline-color: #0077b5;
+}
+.bg-color{
+  background-color: beige;
+}
+.appawesome{
+  
+  margin-top:50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+  }
+  .heading2{
+    color:#2A0944;
+  }
+  .iconCardimg{
+  
+    border:2px solid #A10035;
+    border-radius: 50%;
+    padding: 40px;
+    box-shadow: 0 0 5px #A10035;
+    
+}
+.iconhover:hover{
+  color: #d6bee9;
+  transform: scale(1.3);
+
+}
+.btnClr{
+  background-color: #2A0944;
+}
+.btnClr:hover{
+  background-color: #1c042e!important;
+}
+.footer{
+ color: #A10035;
+  height: 40px;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+ 
+  .appawesome{
+  
+    margin-top:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    }
+    h1{
+      text-align: center;
+      font-weight: 600;
+      color: #A10035;
+      font-size: 50px;
+    }
+
+ 
+}
