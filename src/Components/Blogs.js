@@ -53,8 +53,8 @@ useEffect(() => {
    <div className='container'>
                 <div className = "row">
                 {articles.map((element)=>{
-                    return <div className = "col-md-4" key = {element.title}>
-                    <BlogItem title = {element.title?element.title.slice(0,45):""} brief = {element.brief?element.brief.slice(0,88):""} imageUrl = {element.coverImage} slug = {element.slug}/>
+                    return <div className = "container mt-5" key = {element.title}>
+                    <BlogItem title = {element.title?element.title.slice(0,45):""} brief = {element.brief} imageUrl = {element.coverImage} slug = {element.slug}/>
 
                     </div>
                 })}

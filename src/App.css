@@ -150,9 +150,10 @@ font-size: 20px;
   background-color: #1c042e!important;
 }
 .footer{
- color: #A10035;
+ color: grey;
   height: 40px;
   text-align: center;
+  
 }
 @media screen and (max-width: 600px) {
  
